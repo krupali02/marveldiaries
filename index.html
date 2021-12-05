@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> Marvel Diaries </title>
+  <link rel="stylesheet" type="text/css" href="index.css" title="style" />
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Average Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+  <link href='https://fonts.iu.edu/style.css?family=BentonSansComp:bold' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/marvel" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="img/cap.png">
+
+  <script src="index.js"></script>
+</head>
+
+<body>
+<div>
+     <h1 id="header">MARVEL &nbsp; DIARIES</h1>
+</div>
+
+<div class="movies">
+    <p> 
+    <button class="bu" onclick="home()"> HOME </button>
+    <button class="bu" onclick="a()"> IRON MAN </button>
+    <button class="bu" onclick="b()"> THE INCREDIBLE HULK </button>
+    <button class="bu" onclick="c()"> IRON MAN 2 </button>
+    <button class="bu" onclick="d()">THOR</button>
+    <button class="bu" onclick="e()"> CAPTAIN AMERICA: THE FIRST AVENGER </button>
+    <button class="bu" onclick="f()">AVENGERS</button>
+    </p>
+
+</div> 
+
+
+<div class="homep" id="testing" style="display: block;">
+
+    <div id="whole">
+    <div class="topp"> <p class="largeintro">WELCOME</p></div>     <!-- top shape -->
+
+    <p class="smaller">to my Marvel Diary</p>
+    
+    <div class="side" id="mainp"> </div>  <!-- bottom shape -->
+
+        <!-- text underneath -->
+    <div id="newWork">
+         <!-- <p> Hey there, my name is Krupali and Welcome to my Marvel Diary. I wanted to make this diary for a few reasons. First, making this diary would be a great way for me to document my journey of watching the marvel movies in ‘release date’ order. I know that there has been a recent hype over certain characters, movies and shows, and I though to myself “hey, I don’t want to miss out”. So here we are! Also, making this visual diary is a great way for me to learn more about the forehand and backhand parts of designing a website. As a computer science major, I think that making simple and personal projects are a great way for you to learn something new and to push yourself forward.
+              </p> -->
+    </div>
+
+    <div class="colours">
+
+    <!-- <img id="col" src="img/blue.PNG" width="300px" height="500px"> 
+    <img id="col" src="img/red.PNG" width="300px" height="500px"> 
+    <img id="col" src="img/grey.PNG" width="300px" height="500px">  -->
+
+    <div id="ins" style="background-color:rgb(149, 30, 34); margin-left: auto; margin-right: auto; height: 500px; width: 350px;"><p id="red">ABOUT ME</p> <p id="reds">Hey there! My name is Krupali and I am a first year computer science student at York University. <br> <br>I enjoy creating new things in my free time, whether it is a new painting or building something from scratch. This also includes working on new websites. Every time I get a new idea of a certain concept, I run to my laptop and start coding right away. There is something different about the way you feel when you can visually see your hard work in front of you. Aside from the minimal sappy stuff, I am also a new marvel fan, as I have been spending a lot binging all the marvel movies.  Oops : ). I also enjoy watching a lot of new shows. My top shows are Brooklyn 99, Modern Family, Parks and Recreation and so many more (I cant remember half of them).  <br><br> Anyways, I hope you enjoyed this mini-introduction and the rest of my website!</p></div>
+  <div id="ins" style="background-color:rgb(77, 138, 181); margin-left: auto; margin-right: auto;  height: 500px; width: 350px;"><p id="red">ABOUT THIS WEBSITE</p> <p id="blue">As a computer science student, I am always programming something new (almost) every single day during the school year. But now that I am done with my first year, I am currently on a mini-vacation before my spring classes start. I think that it is also important to point out that I am someone who needs to stay busy all the time, so staying at home doing nothing is a nightmare. So that is why I created this website. <br><br> I am committed to watching all the Marvel movies and hoping to enjoy them as much as I am. So after watching every movie, I will write does a brief synopsis of the film and also, my opinion towards it. <br><br> I am hoping to have this website up for a very long time, so that when every I look back, I can remember the times I enjoyed the film and how I felt about it.</p></div>  
+  <div id="ins" style="background-color:rgb(185, 190, 186); margin-left: auto; margin-right: auto;  height: 500px; width: 350px;"><p id="red">MY INSPIRATION</p> <p id="greyss">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem <br><br>Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+</p></div>
+
+    </div>
+</div>
+
+</div>
+
+
+<div class="container" id="tony" style="display: none;"> 
+    <div class="infoo"> 
+        <p > IRON MAN </p>
+    </div>
+    <center> <div class="video">
+        <iframe style="border: 3px solid white; padding:3px;" width="560" height="315" src="https://www.youtube.com/embed/KAE5ymVLmZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div></center>
+
+    <img id="newsa" src="img/header.png"  width=1315px height=auto> 
+
+    <div class="extra">
+        <!-- <button class="but" onclick="parent.location=' www.marvel.com/characters/iron-man-tony-stark'" type="button">MORE INFO</button> -->
+        <input class="but" type=button onClick="parent.open('https://www.marvel.com/characters/iron-man-tony-stark')" 
+value='MORE INFO' >
+    </div>
+
+    <div id="final" >
+
+    <img id="image" src="img/iron.jpg"  width="200" height="266.7" style="border: 3px solid rgb(116, 0, 0); padding: 5px;"> 
+
+    <p class="headers">Synopsis</p>
+    <p class="text" id="first">Starting off strong, we have Iron Man. Released in 2008, this story revolves around a billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), who is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism. <p>
+
+        <p class="headers">Opinion</p>
+        <img id="im" src="img/tp.jpg"  width="250" height="260" style="border: 3px solid rgb(116, 0, 0); padding: 5px;"> 
+
+    <p class="text" id="second">  Personally, I loved this film. I am not the biggest fan of movies that involve a lot of fight scenes and any sort of violence, but this movie blew me away. When talking about the characters themselves, Tony Starks aka Iron Man and Pepper Pots were my favourite. Obviously Tony is on the top two, since he is the main character. But there is something about his character that makes you fall in love with him instantly. Whether it’s is confidence or sense of humour, something causes him to stand out from the rest. But his intelligence in relation to the world of technology was amazing. While he was kidnapped, he was able to create a full suit from scratch (like Obadiah said). And his character development was not overlooked. After going through rough event, his outlook in relation to his father’s company changed. Concluding that the weapons built by Stark Industries caused more harm than good. This realization rose something from within, causing Tony to use his (new and improved) iron suit for the better. And through everything, Pepper was always by Tony’s side. Her character was simple, but I liked her. She did no cause any sort of chaos as she sided with Tony, but at the same time, did not have a large impact on the plot line or any of the other characters. I have mixed feelings when it comes to her impact on Tony’s original playboy character. 
+        
+        <!-- Personally, I loved this film. I am not the biggest fan of movies that involve a lot of fight scenes and any sort of violence, but this movie blew me away. When talking about the characters themselves, Tony Starks aka Iron Man and Pepper Pots were my favourite. Obviously Tony is on the top two, since he is the main character. But there is something about his character that makes you fall in love with him instantly. Whether it’s is confidence or sense of humour, something causes him to stand out from the rest. But his intelligence in relation to the world of technology was amazing. While he was kidnapped, he was able to create a full suit from scratch (like Obadiah said). And his character development was not overlooked. After going through rough event, his outlook in relation to his father’s company changed. Concluding that the weapons built by Stark Industries caused more harm than good. This realization rose something from within, causing Tony to use his (new and improved) iron suit for the better. And through everything, Pepper was always by Tony’s side. Her character was simple, but I liked her. She did no cause any sort of chaos as she sided with Tony, but at the same time, did not have a large impact on the plot line or any of the other characters. I have mixed feelings when it comes to her impact on Tony’s original playboy character.  -->
+    
+    </p>
+        
+    
+    </div>
+</div>
+
+
+
+
+
+<div class="container" id="hulk" style="display: none;"> 
+    <div class="infoo"> 
+        <p > THE INCREDIBLE HULK  </p>
+    </div>
+    <center> <div class="video">
+        <iframe style="border: 3px solid white; padding:3px;" width="560" height="315" src="https://www.youtube.com/embed/H3vQbMSVlDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div></center>
+
+    <img id="newsa" src="img/hposs.png"  width=1315px height=auto> 
+
+    <div class="extra">
+        <!-- <button class="but" onclick="parent.location=' www.marvel.com/characters/iron-man-tony-stark'" type="button">MORE INFO</button> -->
+        <input class="but" type=button onClick="parent.open('https://marvelcinematicuniverse.fandom.com/wiki/The_Incredible_Hulk')" 
+value='MORE INFO' >
+    </div>
+
+    
+
+    <div id="final" >
+
+    <img id="image" src="img/hulkpos.jpg"  width="200" height="266.7" style="border: 3px solid rgb(116, 0, 0); padding: 5px;"> 
+
+    <p class="headers">Synopsis</p>
+    <p class="text" id="first">Starting off strong, we have Iron Man. Released in 2008, this story revolves around a billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), who is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism. <p>
+
+        <p class="headers">Opinion</p>
+        <img id="im" src="img/tp.jpg"  width="250" height="260" style="border: 3px solid rgb(116, 0, 0); padding: 5px;"> 
+        <!-- <div class="tonpep" id="tope"></div> -->
+
+    <p class="text" id="second">  Personally, I loved this film. I am not the biggest fan of movies that involve a lot of fight scenes and any sort of violence, but this movie blew me away. When talking about the characters themselves, Tony Starks aka Iron Man and Pepper Pots were my favourite. Obviously Tony is on the top two, since he is the main character. But there is something about his character that makes you fall in love with him instantly. Whether it’s is confidence or sense of humour, something causes him to stand out from the rest. But his intelligence in relation to the world of technology was amazing. While he was kidnapped, he was able to create a full suit from scratch (like Obadiah said). And his character development was not overlooked. After going through rough event, his outlook in relation to his father’s company changed. Concluding that the weapons built by Stark Industries caused more harm than good. This realization rose something from within, causing Tony to use his (new and improved) iron suit for the better. And through everything, Pepper was always by Tony’s side. Her character was simple, but I liked her. She did no cause any sort of chaos as she sided with Tony, but at the same time, did not have a large impact on the plot line or any of the other characters. I have mixed feelings when it comes to her impact on Tony’s original playboy character. 
+        
+        Personally, I loved this film. I am not the biggest fan of movies that involve a lot of fight scenes and any sort of violence, but this movie blew me away. When talking about the characters themselves, Tony Starks aka Iron Man and Pepper Pots were my favourite. Obviously Tony is on the top two, since he is the main character. But there is something about his character that makes you fall in love with him instantly. Whether it’s is confidence or sense of humour, something causes him to stand out from the rest. But his intelligence in relation to the world of technology was amazing. While he was kidnapped, he was able to create a full suit from scratch (like Obadiah said). And his character development was not overlooked. After going through rough event, his outlook in relation to his father’s company changed. Concluding that the weapons built by Stark Industries caused more harm than good. This realization rose something from within, causing Tony to use his (new and improved) iron suit for the better. And through everything, Pepper was always by Tony’s side. Her character was simple, but I liked her. She did no cause any sort of chaos as she sided with Tony, but at the same time, did not have a large impact on the plot line or any of the other characters. I have mixed feelings when it comes to her impact on Tony’s original playboy character. 
+    
+    </p>
+        
+    
+    </div>
+</div>
+
+
+
+
+
+</body> 
+</html>
+
